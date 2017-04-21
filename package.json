@@ -1,0 +1,23 @@
+{
+  "name": "typescript-101",
+  "version": "1.0.0",
+  "description": "A sample typescript project",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "concurrently \"grunt\" \"lite-server\"",
+    "transpile": "tsc app/main.ts"
+  },
+  "keywords": [
+    "ts"
+  ],
+  "author": "Akshay Abraham",
+  "license": "ISC",
+  "devDependencies": {
+    "concurrently": "^3.4.0",
+    "grunt": "^1.0.1",
+    "grunt-contrib-watch": "^1.0.0",
+    "grunt-typescript": "^0.8.0",
+    "lite-server": "^2.3.0"
+  }
+}
